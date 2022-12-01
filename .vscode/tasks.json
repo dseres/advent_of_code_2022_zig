@@ -16,7 +16,7 @@
         {
             "label": "zig run",
             "type": "shell",
-            "command": "zig test ./src/day1/day1.zig",
+            "command": "zig run ./src/main.zig",
             "problemMatcher": []
         },
         {
@@ -25,8 +25,7 @@
             "command": "zig test ./src/day0_template/day0.zig",
             "problemMatcher": [],
             "group": {
-                "kind": "test",
-                "isDefault": true
+                "kind": "test"
             }
         },
         {
@@ -35,7 +34,8 @@
             "command": "zig test ./src/day1/day1.zig",
             "problemMatcher": [],
             "group": {
-                "kind": "test"
+                "kind": "test",
+                "isDefault": true
             }
         }
     ]
