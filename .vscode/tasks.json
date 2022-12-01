@@ -12,6 +12,31 @@
                 "kind": "build",
                 "isDefault": true
             }
+        },
+        {
+            "label": "zig run",
+            "type": "shell",
+            "command": "zig test ./src/day1/day1.zig",
+            "problemMatcher": []
+        },
+        {
+            "label": "zig test day0",
+            "type": "shell",
+            "command": "zig test ./src/day0_template/day0.zig",
+            "problemMatcher": [],
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "zig test day1",
+            "type": "shell",
+            "command": "zig test ./src/day1/day1.zig",
+            "problemMatcher": [],
+            "group": {
+                "kind": "test"
+            }
         }
     ]
 }
